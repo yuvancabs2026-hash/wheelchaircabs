@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Book WheelchairCabs wheelchair taxi rides in Bengaluru and Chennai with an automatic hydraulic lift for hospital appointments, airport transfers, and everyday travel.",
+    "Book a wheelchair taxi in Bengaluru or Chennai with an automatic hydraulic lift for planned hospital visits, dialysis, airport transfers, and everyday trips. Non-emergency transport.",
   manifest: "/site.webmanifest",
 
   keywords: [
@@ -51,6 +51,9 @@ export const metadata: Metadata = {
     "hospital taxi for wheelchair users",
     "dialysis appointment transport",
     "wheelchair hospital transfer",
+    "non-emergency hospital transport Bengaluru",
+    "non-emergency hospital transport Chennai",
+    "wheelchair accessible hospital transport",
     "accessible airport taxi",
     "senior citizen cab",
     "non-emergency medical transport",
@@ -81,7 +84,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "WheelchairCabs | Wheelchair Taxi in Bengaluru & Chennai",
     description:
-      "Wheelchair-accessible taxi rides in Bengaluru and Chennai for hospital visits, airport trips, and everyday journeys.",
+      "Planned, non-emergency wheelchair-accessible taxi rides in Bengaluru and Chennai for hospital appointments, airport trips, and everyday journeys.",
     url: "https://wheelchaircabs.com",
     siteName: "WheelchairCabs",
     locale: "en_IN",
@@ -100,7 +103,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "WheelchairCabs | Wheelchair Taxi in Bengaluru & Chennai",
     description:
-      "Safe, dignified wheelchair-accessible transport in Bengaluru and Chennai.",
+      "Planned, non-emergency wheelchair-accessible transport in Bengaluru and Chennai.",
     images: ["/images/hero.png"],
   },
 };

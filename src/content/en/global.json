@@ -31,35 +31,35 @@
     },
     "footer": {
         "brand": "WheelchairCabs",
-        "tagline": "Empowering mobility for everyone in Bengaluru and Chennai. Safety, comfort, and dignity in every ride. by Click-N-Start",
+        "tagline": "Planned, wheelchair-accessible taxi rides in Bengaluru and Chennai for hospital visits, airport transfers, and everyday travel.",
         "phone": "+91 81058 25544",
         "columns": [
             {
     "title": "Areas We Serve",
     "links": [
         {
-            "label": "Across Bangalore",
+            "label": "Bengaluru service areas",
             "href": "/routes/indiranagar"
         },
         {
             "label": "Airport Transfers",
-            "href": "/routes/koramangala"
+            "href": "/routes/kempegowda-airport"
         },
         {
-            "label": "Hospital Trips",
-            "href": "/routes/whitefield"
+            "label": "Manipal Hospital trips",
+            "href": "/routes/manipal-hospital"
         },
         {
-            "label": "Outstation Rides",
-            "href": "/routes/jayanagar"
+            "label": "Fortis Hospital trips",
+            "href": "/routes/fortis-hospital"
         },
         {
-            "label": "Nearby Cities",
-            "href": "/routes/hsr-layout"
+            "label": "Narayana Health trips",
+            "href": "/routes/narayana-health"
         },
         {
             "label": "Wheelchair Taxi in Chennai",
-            "href": "/routes/chennai"
+            "href": "/chennai"
         }
     ]
 },

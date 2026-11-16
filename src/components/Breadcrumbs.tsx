@@ -1,5 +1,7 @@
 import React from 'react';
 
+const siteUrl = 'https://wheelchaircabs.com';
+
 export interface BreadcrumbItem {
     label: string;
     href?: string;
@@ -17,7 +19,7 @@ const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
             '@type': 'ListItem',
             position: index + 1,
             name: item.label,
-            ...(item.href ? { item: item.href } : {}),
+            ...(item.href ? { item: new URL(item.href, siteUrl).toString() } : {}),
         })),
     };
 

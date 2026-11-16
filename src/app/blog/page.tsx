@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getAllBlogPosts } from '@/lib/data';
 import CTABanner from '@/components/CTABanner';
 import { getBookingPageData } from '@/lib/data';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
     title: 'Wheelchair Taxi & Accessible Travel Guides',
@@ -26,6 +27,7 @@ export default async function BlogIndexPage() {
 
     return (
         <main className="pt-24 lg:pt-32 min-h-screen flex flex-col">
+            <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Blog' }]} />
             <div className="bg-brand-cyan/5 py-12 lg:py-16 text-center border-b border-brand-cyan/10">
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl lg:text-5xl md:leading-tight font-display font-extrabold text-slate-900 mb-4">

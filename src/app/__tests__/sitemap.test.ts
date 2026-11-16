@@ -17,6 +17,8 @@ describe("Sitemap Generator", () => {
         expect(urls).toContain("https://wheelchaircabs.com/faq");
         expect(urls).toContain("https://wheelchaircabs.com/privacy-policy");
         expect(urls).toContain("https://wheelchaircabs.com/terms-of-service");
+        expect(urls).toContain("https://wheelchaircabs.com/blog");
+        expect(urls).toContain("https://wheelchaircabs.com/routes/manipal-hospital");
     });
 
     it("sets homepage as highest priority", async () => {
@@ -29,7 +31,14 @@ describe("Sitemap Generator", () => {
     it("all entries have lastModified dates", async () => {
         const result = await sitemap();
         result.forEach((entry) => {
-            expect(entry.lastModified).toBeDefined();
+            expect(Number.isNaN(Date.parse(String(entry.lastModified)))).toBe(false);
+        });
+    });
+
+    it("only lists canonical pages on the WheelchairCabs domain", async () => {
+        const result = await sitemap();
+        result.forEach((entry) => {
+            expect(new URL(entry.url).origin).toBe("https://wheelchaircabs.com");
         });
     });
 });

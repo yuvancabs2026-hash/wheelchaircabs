@@ -43,6 +43,14 @@ describe("Home Page", () => {
         expect(screen.getByTestId("feature-grid")).toBeInTheDocument();
     });
 
+    it("renders useful hospital, city, and booking links", () => {
+        render(<Home />);
+        expect(screen.getByRole("link", { name: /Wheelchair taxi to Manipal Hospital/i })).toHaveAttribute("href", "/routes/manipal-hospital");
+        expect(screen.getByRole("link", { name: /Wheelchair taxi service in Chennai/i })).toHaveAttribute("href", "/chennai");
+        expect(screen.getByRole("link", { name: /Enquire about a wheelchair taxi/i })).toHaveAttribute("href", "/booking");
+        expect(screen.getByText(/planned, non-emergency transport/i)).toBeInTheDocument();
+    });
+
     it("renders the TestimonialCarousel section", () => {
         render(<Home />);
         expect(screen.getByTestId("testimonial-carousel")).toBeInTheDocument();

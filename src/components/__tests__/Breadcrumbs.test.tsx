@@ -49,6 +49,8 @@ describe('Breadcrumbs Component', () => {
         expect(data.itemListElement).toHaveLength(3);
         expect(data.itemListElement[0].position).toBe(1);
         expect(data.itemListElement[0].name).toBe('Home');
+        expect(data.itemListElement[0].item).toBe('https://wheelchaircabs.com/');
+        expect(data.itemListElement[1].item).toBe('https://wheelchaircabs.com/blog');
     });
 
     it('sets aria-current="page" on the last item', () => {

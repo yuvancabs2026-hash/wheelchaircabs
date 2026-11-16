@@ -4,6 +4,7 @@ import { getRoutePageData, getAllRouteSlugs } from '@/lib/data';
 import RouteDetails from '@/components/RouteDetails';
 import CTABanner from '@/components/CTABanner';
 import HeroBookingForm from '@/components/HeroBookingForm';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export async function generateStaticParams() {
     const slugs = await getAllRouteSlugs();
@@ -79,6 +80,13 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
             <main className="pt-24 lg:pt-32">
+                <Breadcrumbs
+                    items={[
+                        { label: 'Home', href: '/' },
+                        { label: 'Services', href: '/services' },
+                        { label: data.h1 },
+                    ]}
+                />
                 <div className="bg-brand-cyan/5 py-12 lg:py-16 text-center border-b border-brand-cyan/10">
                     <div className="max-w-4xl mx-auto px-4">
                         <h1 className="text-4xl lg:text-5xl md:leading-tight font-display font-extrabold text-slate-900 mb-4">
