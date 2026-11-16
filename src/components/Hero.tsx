@@ -12,15 +12,15 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
         <header className="relative overflow-hidden py-12 lg:py-20">
             {/* Background Decor */}
             <div className="absolute inset-0 z-0 pointer-events-none">
-                <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-gradient-to-tr from-accent/10 to-transparent rounded-full blur-3xl transform translate-y-1/4 -translate-x-1/4"></div>
+                <div className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-primary/5 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-linear-to-tr from-accent/10 to-transparent rounded-full blur-3xl transform translate-y-1/4 -translate-x-1/4"></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <h1 className="mb-8 max-w-6xl font-display text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:mb-10 lg:text-6xl">
                     {data.headingLine1}{' '}
                     <br />
-                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                    <span className="bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
                         {data.headingHighlight}
                     </span>
                 </h1>
@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                     </div>
 
                     <div className="relative z-0 w-full">
-                        <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl relative bg-slate-200 group">
+                        <div className="aspect-4/3 rounded-3xl overflow-hidden shadow-2xl relative bg-slate-200 group">
                             <Image
                                 src="/images/hero.png"
                                 alt="Wheelchair-accessible taxi with an automatic hydraulic lift in Bengaluru"
