@@ -6,8 +6,8 @@ describe('Chennai landing page', () => {
         render(<ChennaiPage />);
 
         expect(screen.getByRole('heading', { name: 'Wheelchair Taxi in Chennai' })).toBeInTheDocument();
-        expect(screen.getByLabelText('Full Name *')).toBeInTheDocument();
-        expect(screen.getByPlaceholderText('e.g., Adyar, Chennai')).toBeInTheDocument();
+        expect(screen.getByLabelText('Pickup location')).toBeInTheDocument();
+        expect(screen.getByLabelText('Dropoff location')).toBeInTheDocument();
         expect(screen.getByText('Dialysis & treatment')).toBeInTheDocument();
         expect(screen.getByText('Airport transfers')).toBeInTheDocument();
     });

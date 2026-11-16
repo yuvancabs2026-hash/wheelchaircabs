@@ -7,21 +7,21 @@ describe("Sitemap Generator", () => {
         expect(result.length).toBeGreaterThanOrEqual(8);
 
         const urls = result.map((entry) => entry.url);
-        expect(urls).toContain("https://yuvancabs.com");
-        expect(urls).toContain("https://yuvancabs.com/services");
-        expect(urls).toContain("https://yuvancabs.com/chennai");
-        expect(urls).toContain("https://yuvancabs.com/routes/chennai");
-        expect(urls).toContain("https://yuvancabs.com/booking");
-        expect(urls).toContain("https://yuvancabs.com/about");
-        expect(urls).toContain("https://yuvancabs.com/contact");
-        expect(urls).toContain("https://yuvancabs.com/faq");
-        expect(urls).toContain("https://yuvancabs.com/privacy-policy");
-        expect(urls).toContain("https://yuvancabs.com/terms-of-service");
+        expect(urls).toContain("https://wheelchaircabs.com");
+        expect(urls).toContain("https://wheelchaircabs.com/services");
+        expect(urls).toContain("https://wheelchaircabs.com/chennai");
+        expect(urls).toContain("https://wheelchaircabs.com/routes/chennai");
+        expect(urls).toContain("https://wheelchaircabs.com/booking");
+        expect(urls).toContain("https://wheelchaircabs.com/about");
+        expect(urls).toContain("https://wheelchaircabs.com/contact");
+        expect(urls).toContain("https://wheelchaircabs.com/faq");
+        expect(urls).toContain("https://wheelchaircabs.com/privacy-policy");
+        expect(urls).toContain("https://wheelchaircabs.com/terms-of-service");
     });
 
     it("sets homepage as highest priority", async () => {
         const result = await sitemap();
-        const homeEntry = result.find((e) => e.url === "https://yuvancabs.com");
+        const homeEntry = result.find((e) => e.url === "https://wheelchaircabs.com");
         expect(homeEntry?.priority).toBe(1);
         expect(homeEntry?.changeFrequency).toBe("weekly");
     });

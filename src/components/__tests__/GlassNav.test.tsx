@@ -9,12 +9,12 @@ const navData = getGlobalData().nav;
 describe('GlassNav Component', () => {
     it('renders the brand name', () => {
         render(<GlassNav data={navData} />);
-        expect(screen.getByText('YuvanCabs')).toBeInTheDocument();
+        expect(screen.getByText('WheelchairCabs')).toBeInTheDocument();
     });
 
-    it('renders the city tagline', () => {
+    it('renders the configured tagline', () => {
         render(<GlassNav data={navData} />);
-        expect(screen.getByText('Bengaluru')).toBeInTheDocument();
+        expect(screen.getByText('by Click-N-Start')).toBeInTheDocument();
     });
 
     it('renders navigation links', () => {

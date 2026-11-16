@@ -1,4 +1,4 @@
-# WheelchairTaxi — SEO-First Development Plan v3.0
+# WheelchairCabs — SEO-First Development Plan v3.0
 
 > **Last updated:** 2026-02-25  
 > **Priority:** SEO → Content → Components → Launch  
@@ -61,7 +61,7 @@ Instead of hardcoding text into components, we use a Data Access approach:
 
 ### Sprint 1.3: SEO Foundation (Built Into Layout)
 - [x] Create `app/layout.tsx` with:
-  - [x] Default title template: `%s | WheelchairTaxi Bangalore`
+  - [x] Default title template: `%s | WheelchairCabs`
   - [x] Default meta description with primary keyword
   - [x] Open Graph + Twitter Card meta tags
   - [x] `viewport` and `themeColor` meta

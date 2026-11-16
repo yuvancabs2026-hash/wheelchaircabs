@@ -12,7 +12,7 @@ import WheelchairTaxiDualVideo from '@/components/WheelchairTaxiDualVideo';
 export const metadata: Metadata = {
   title: 'Wheelchair Accessible Taxi Service in Bengaluru',
   description:
-    'Book a wheelchair taxi in Bengaluru with an automatic hydraulic lift for hospital visits, airport transfers, and everyday travel. YuvanCabs also serves Chennai.',
+    'Book a wheelchair taxi in Bengaluru with an automatic hydraulic lift for hospital visits, airport transfers, and everyday travel. WheelchairCabs also serves Chennai.',
   keywords: [
     'wheelchair taxi Bangalore',
     'wheelchair taxi Bengaluru',
@@ -27,17 +27,17 @@ export const metadata: Metadata = {
     'wheelchair taxi Chennai',
   ],
   alternates: {
-    canonical: 'https://yuvancabs.com',
+    canonical: 'https://wheelchaircabs.com',
   },
 };
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'TaxiService'],
-  name: 'YuvanCabs Bengaluru',
+  name: 'WheelchairCabs Bengaluru',
   description:
     'Wheelchair accessible taxi service in Bengaluru and Chennai. Safe, dignified, and hygienic travel for hospital visits, airport transfers, and city travel.',
-  url: 'https://yuvancabs.com',
+  url: 'https://wheelchaircabs.com',
   telephone: '+91-8105825544',
   address: {
     '@type': 'PostalAddress',

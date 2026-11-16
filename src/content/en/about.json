@@ -1,12 +1,12 @@
 {
-    "heading": "About YuvanCabs",
+    "heading": "About WheelchairCabs",
     "subheading": "Bengaluru's first wheelchair taxi with an automatic hydraulic lift.",
     "story": {
         "heading": "Our Story",
         "paragraphs": [
-            "YuvanCabs was born from a simple observation: wheelchair users and their caregivers in Bengaluru had no dignified, safe way to travel by taxi. Every existing option required physically lifting the passenger \u2014 an exhausting, risky, and undignified experience for everyone involved.",
+            "WheelchairCabs was born from a simple observation: wheelchair users and their caregivers in Bengaluru had no dignified, safe way to travel by taxi. Every existing option required physically lifting the passenger \u2014 an exhausting, risky, and undignified experience for everyone involved.",
             "We asked ourselves: what if boarding a taxi was as effortless as pressing a button? That question led us to build Bengaluru's first wheelchair taxi equipped with an automatic hydraulic lift \u2014 eliminating physical strain entirely.",
-            "Today, YuvanCabs serves hundreds of families across Bengaluru, providing reliable transport for hospital visits, airport transfers, family events, and everyday city travel. Our mission is simple: make mobility accessible, dignified, and stress-free for every wheelchair user in the city."
+            "Today, WheelchairCabs serves hundreds of families across Bengaluru, providing reliable transport for hospital visits, airport transfers, family events, and everyday city travel. Our mission is simple: make mobility accessible, dignified, and stress-free for every wheelchair user in the city."
         ]
     },
     "mission": {
@@ -54,11 +54,11 @@
         }
     ],
     "cta": {
-        "heading": "Join hundreds of families who trust YuvanCabs",
+        "heading": "Join hundreds of families who trust WheelchairCabs",
         "subheading": "Experience the difference that an automatic hydraulic lift makes.",
         "whatsapp": {
             "label": "Book Your First Ride",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wheelchaircabs.com/booking",
             "ariaLabel": "Book your first ride via WhatsApp"
         },
         "phone": {

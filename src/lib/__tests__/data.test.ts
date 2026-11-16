@@ -43,7 +43,7 @@ describe('Data Layer', () => {
         it('returns CTA data with booking link and phone link', () => {
             expect(data.cta).toBeDefined();
             expect(data.cta.heading).toBeTruthy();
-            expect(data.cta.whatsapp.href).toMatch(/yuvancabs\.com\/booking/);
+            expect(data.cta.whatsapp.href).toMatch(/wheelchaircabs\.com\/booking/);
             expect(data.cta.phone.href).toMatch(/^tel:/);
         });
     });

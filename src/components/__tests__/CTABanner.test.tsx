@@ -14,7 +14,7 @@ describe('CTABanner Component', () => {
 
     it('renders the subheading', () => {
         render(<CTABanner data={ctaData} />);
-        expect(screen.getByText(/Book your YuvanCabs today/i)).toBeInTheDocument();
+        expect(screen.getByText(/Book your WheelchairCabs today/i)).toBeInTheDocument();
     });
 
     it('renders WhatsApp and phone CTA links', () => {

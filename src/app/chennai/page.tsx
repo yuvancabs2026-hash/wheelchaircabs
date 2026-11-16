@@ -8,7 +8,7 @@ import { getBookingPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Wheelchair Taxi in Chennai | Accessible Cabs for Hospital Trips',
     description:
-        'Book a wheelchair-accessible taxi in Chennai for hospital appointments, dialysis visits, airport transfers, and everyday travel. Contact YuvanCabs to plan your ride.',
+        'Book a wheelchair-accessible taxi in Chennai for hospital appointments, dialysis visits, airport transfers, and everyday travel. Contact WheelchairCabs to plan your ride.',
     keywords: [
         'wheelchair taxi Chennai',
         'wheelchair cab Chennai',
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
         'mobility assistance cab Chennai',
     ],
     alternates: {
-        canonical: 'https://yuvancabs.com/chennai',
+        canonical: 'https://wheelchaircabs.com/chennai',
     },
     openGraph: {
-        title: 'Wheelchair Taxi in Chennai | YuvanCabs',
+        title: 'Wheelchair Taxi in Chennai | WheelchairCabs',
         description:
             'Accessible taxi rides in Chennai for hospital appointments, regular treatments, airport journeys, and more.',
-        url: 'https://yuvancabs.com/chennai',
+        url: 'https://wheelchaircabs.com/chennai',
         type: 'website',
     },
 };
@@ -47,7 +47,7 @@ const faqs = [
     {
         question: 'Can I book a wheelchair taxi in Chennai for a hospital visit?',
         answer:
-            'Yes. Contact YuvanCabs with your pickup point, hospital, appointment time, and return-trip needs so the team can confirm availability and plan the ride.',
+            'Yes. Contact WheelchairCabs with your pickup point, hospital, appointment time, and return-trip needs so the team can confirm availability and plan the ride.',
     },
     {
         question: 'Can I arrange a wheelchair cab for dialysis or recurring treatment?',
@@ -57,7 +57,7 @@ const faqs = [
     {
         question: 'Which Chennai hospitals can I travel to?',
         answer:
-            'You can request a ride to your chosen hospital or clinic in Chennai. When enquiring, provide the exact entrance or drop-off point; YuvanCabs is not affiliated with any hospital.',
+            'You can request a ride to your chosen hospital or clinic in Chennai. When enquiring, provide the exact entrance or drop-off point; WheelchairCabs is not affiliated with any hospital.',
     },
     {
         question: 'Can a family member or caregiver travel with me?',
@@ -82,7 +82,7 @@ const faqs = [
     {
         question: 'How much does a wheelchair taxi in Chennai cost?',
         answer:
-            'The fare depends on the route, trip duration, waiting time, and other trip details. Contact YuvanCabs with your itinerary to request a quote before booking.',
+            'The fare depends on the route, trip duration, waiting time, and other trip details. Contact WheelchairCabs with your itinerary to request a quote before booking.',
     },
     {
         question: 'How far in advance should I book?',
@@ -107,15 +107,15 @@ const structuredData = {
                 'Pre-bookable wheelchair-accessible taxi rides in Chennai for planned hospital appointments, airport transfers, and everyday journeys.',
             provider: {
                 '@type': 'Organization',
-                name: 'YuvanCabs',
-                url: 'https://yuvancabs.com',
+                name: 'WheelchairCabs',
+                url: 'https://wheelchaircabs.com',
                 telephone: '+91-8105825544',
             },
             areaServed: {
                 '@type': 'City',
                 name: 'Chennai',
             },
-            url: 'https://yuvancabs.com/chennai',
+            url: 'https://wheelchaircabs.com/chennai',
         },
         {
             '@type': 'FAQPage',
@@ -195,7 +195,7 @@ export default function ChennaiPage() {
                                 Finding a suitable wheelchair taxi in Chennai can take extra planning.
                                 Standard cabs may not have a step-free way to board or room for a wheelchair,
                                 and arranging a lift from a car can be difficult for both the passenger and
-                                caregiver. YuvanCabs offers wheelchair-accessible taxi bookings for planned
+                                caregiver. WheelchairCabs offers wheelchair-accessible taxi bookings for planned
                                 journeys, with an automatic hydraulic lift for boarding.
                             </p>
                             <p>
@@ -257,7 +257,7 @@ export default function ChennaiPage() {
                             time. You can ask about trips to Chennai hospitals and healthcare centres such as
                             Apollo Hospitals, MIOT International, Kauvery Hospital, MGM Healthcare, Fortis
                             Malar Hospital, and other destinations. These are example destinations only;
-                            YuvanCabs is not affiliated with or endorsed by any hospital.
+                            WheelchairCabs is not affiliated with or endorsed by any hospital.
                         </p>
                         <p className="text-lg text-slate-700 leading-relaxed">
                             For dialysis transport, chemotherapy visits, physiotherapy, post-operative follow-up,
@@ -333,7 +333,7 @@ export default function ChennaiPage() {
                             Plan your Chennai wheelchair cab ride
                         </h2>
                         <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                            Call YuvanCabs at <a className="text-brand-teal font-semibold" href="tel:+918105825544">+91 81058 25544</a> or
+                            Call WheelchairCabs at <a className="text-brand-teal font-semibold" href="tel:+918105825544">+91 81058 25544</a> or
                             send your trip details through the booking page. Confirm your route, vehicle fit,
                             fare, and availability with the team before travel.
                         </p>

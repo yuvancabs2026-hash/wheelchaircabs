@@ -22,48 +22,17 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-/** Default metadata — expanded for Phase 2 (SEO). */
-// export const metadata: Metadata = {
-//   metadataBase: new URL("https://yuvancabs.com"),
-//   title: {
-//     default: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     template: "%s | YuvanCabs",
-//   },
-//   description:
-//     "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//   keywords: [
-//     "wheelchair taxi bengaluru",
-//     "accessible transport",
-//     "hydraulic lift taxi",
-//     "disability transport bangalore",
-//     "hospital discharge transport",
-//     "wheelchair cab bangalore",
-//   ],
-//   openGraph: {
-//     title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     description: "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//     url: "https://yuvancabs.com",
-//     siteName: "YuvanCabs",
-//     locale: "en_IN",
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "YuvanCabs Bengaluru - Premium Wheelchair Taxi",
-//     description: "Bengaluru's first automated wheelchair taxi with a hydraulic lift. Safe, dignified, and hygienic travel for hospital visits and city travel.",
-//   },
-// };
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yuvancabs.com"),
+  metadataBase: new URL("https://wheelchaircabs.com"),
 
   title: {
-    default: "YuvanCabs | Wheelchair Taxi in Bengaluru & Chennai",
-    template: "%s | YuvanCabs",
+    default: "WheelchairCabs | Wheelchair Taxi in Bengaluru & Chennai",
+    template: "%s | WheelchairCabs",
   },
 
   description:
-    "Book YuvanCabs wheelchair taxi rides in Bengaluru and Chennai with an automatic hydraulic lift for hospital appointments, airport transfers, and everyday travel.",
+    "Book WheelchairCabs wheelchair taxi rides in Bengaluru and Chennai with an automatic hydraulic lift for hospital appointments, airport transfers, and everyday travel.",
+  manifest: "/site.webmanifest",
 
   keywords: [
     "wheelchair taxi Bengaluru",
@@ -88,7 +57,6 @@ export const metadata: Metadata = {
     "wheelchair taxi booking",
   ],
 
-  // ✅ ICONS (this is what you need)
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -110,41 +78,39 @@ export const metadata: Metadata = {
     ],
   },
 
-  // ✅ OPEN GRAPH (for WhatsApp, LinkedIn, etc.)
   openGraph: {
-    title: "YuvanCabs | Wheelchair Taxi in Bengaluru & Chennai",
+    title: "WheelchairCabs | Wheelchair Taxi in Bengaluru & Chennai",
     description:
       "Wheelchair-accessible taxi rides in Bengaluru and Chennai for hospital visits, airport trips, and everyday journeys.",
-    url: "https://yuvancabs.com",
-    siteName: "YuvanCabs",
+    url: "https://wheelchaircabs.com",
+    siteName: "WheelchairCabs",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/android-chrome-512x512.png", // 👈 use this as OG image (or better: custom banner later)
-        width: 512,
-        height: 512,
-        alt: "YuvanCabs Wheelchair Taxi",
+        url: "/images/hero.png",
+        width: 640,
+        height: 640,
+        alt: "WheelchairCabs Wheelchair Taxi",
       },
     ],
   },
 
-  // ✅ TWITTER CARDS
   twitter: {
     card: "summary_large_image",
-    title: "YuvanCabs | Wheelchair Taxi in Bengaluru & Chennai",
+    title: "WheelchairCabs | Wheelchair Taxi in Bengaluru & Chennai",
     description:
       "Safe, dignified wheelchair-accessible transport in Bengaluru and Chennai.",
-    images: ["/android-chrome-512x512.png"],
+    images: ["/images/hero.png"],
   },
 };
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "YuvanCabs",
-  url: "https://yuvancabs.com",
-  logo: "https://yuvancabs.com/icon.svg",
+  name: "WheelchairCabs",
+  url: "https://wheelchaircabs.com",
+  logo: "https://wheelchaircabs.com/icon.svg",
   description: "Wheelchair-accessible taxi service for hospital visits, airport transfers, and everyday travel in Bengaluru and Chennai.",
   areaServed: [
     { "@type": "City", name: "Bengaluru" },

@@ -1,6 +1,6 @@
 {
-    "metaTitle": "Wheelchair Taxi in Chennai | YuvanCabs",
-    "metaDescription": "Book a wheelchair-accessible taxi in Chennai for planned hospital appointments, dialysis trips, airport transfers, and everyday travel. Contact YuvanCabs to confirm your ride.",
+    "metaTitle": "Wheelchair Taxi in Chennai | WheelchairCabs",
+    "metaDescription": "Book a wheelchair-accessible taxi in Chennai for planned hospital appointments, dialysis trips, airport transfers, and everyday travel. Contact WheelchairCabs to confirm your ride.",
     "city": "Chennai",
     "keywords": [
         "wheelchair taxi Chennai",
@@ -33,19 +33,19 @@
         "T. Nagar",
         "Velachery"
     ],
-    "description": "YuvanCabs accepts enquiries for planned wheelchair-accessible taxi trips across Chennai, including hospital and clinic appointments, dialysis visits, airport and railway transfers, and everyday journeys. Share your exact pickup and destination, wheelchair details, and travel requirements so the team can confirm vehicle suitability, availability, and fare.",
+    "description": "WheelchairCabs accepts enquiries for planned wheelchair-accessible taxi trips across Chennai, including hospital and clinic appointments, dialysis visits, airport and railway transfers, and everyday journeys. Share your exact pickup and destination, wheelchair details, and travel requirements so the team can confirm vehicle suitability, availability, and fare.",
     "cta": {
         "heading": "Plan a Chennai Wheelchair Taxi Ride",
         "subheading": "Tell us your route and travel needs to check vehicle suitability, availability, and fare.",
         "whatsapp": {
             "label": "Book via WhatsApp",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wheelchaircabs.com/booking",
             "ariaLabel": "Enquire about a Chennai wheelchair taxi via WhatsApp"
         },
         "phone": {
             "label": "+91 81058 25544",
             "href": "tel:+918105825544",
-            "ariaLabel": "Call YuvanCabs about a Chennai wheelchair taxi"
+            "ariaLabel": "Call WheelchairCabs about a Chennai wheelchair taxi"
         }
     }
 }

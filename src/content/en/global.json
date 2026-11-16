@@ -1,6 +1,6 @@
 {
     "nav": {
-        "brand": "YuvanCabs",
+        "brand": "WheelchairCabs",
         "tagline": "by Click-N-Start",
         "navLinks": [
             {
@@ -27,10 +27,10 @@
         "ctaLabel": "Book a Ride",
         "ctaLabelShort": "Book",
         "statusLabel": "Driver Available",
-        "whatsappHref": "https://www.yuvancabs.com/booking"
+        "whatsappHref": "https://wheelchaircabs.com/booking"
     },
     "footer": {
-        "brand": "YuvanCabs",
+        "brand": "WheelchairCabs",
         "tagline": "Empowering mobility for everyone in Bengaluru and Chennai. Safety, comfort, and dignity in every ride. by Click-N-Start",
         "phone": "+91 81058 25544",
         "columns": [
@@ -110,7 +110,7 @@
                 ]
             }
         ],
-        "copyright": "© 2026 YuvanCabs Bengaluru. All rights reserved."
+        "copyright": "© 2026 WheelchairCabs Bengaluru. All rights reserved."
     },
     "whatsapp": {
         "href": "https://wa.me/918105825544",

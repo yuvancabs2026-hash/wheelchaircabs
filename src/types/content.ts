@@ -1,5 +1,5 @@
 /**
- * Content type definitions for the WheelchairTaxi data layer.
+ * Content type definitions for the WheelchairCabs data layer.
  *
  * These interfaces define the shape of all CMS-ready content.
  * Currently backed by local JSON files in content/en/.

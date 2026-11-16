@@ -4,18 +4,18 @@ import CTABanner from '@/components/CTABanner';
 import { getContactPageData } from '@/lib/data';
 
 export const metadata: Metadata = {
-    title: 'Contact YuvanCabs — Wheelchair Taxi Bangalore',
+    title: 'Contact WheelchairCabs — Wheelchair Taxi Bangalore',
     description:
-        'Contact YuvanCabs to book wheelchair-accessible taxi rides in Bengaluru or Chennai. Call +91 81058 25544 or message us to discuss your trip.',
+        'Contact WheelchairCabs to book wheelchair-accessible taxi rides in Bengaluru or Chennai. Call +91 81058 25544 or message us to discuss your trip.',
     keywords: [
         'wheelchair taxi contact Bangalore',
         'wheelchair cab phone number Bengaluru',
         'wheelchair taxi Chennai contact',
         'book accessible hospital transport',
-        'YuvanCabs phone number',
+        'WheelchairCabs phone number',
     ],
     alternates: {
-        canonical: 'https://yuvancabs.com/contact',
+        canonical: 'https://wheelchaircabs.com/contact',
     },
 };
 
@@ -120,7 +120,7 @@ export default function ContactPage() {
                                     allowFullScreen
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    title="YuvanCabs Bengaluru location on Google Maps"
+                                    title="WheelchairCabs Bengaluru location on Google Maps"
                                 />
                             </div>
                         </div>

@@ -16,7 +16,7 @@
         {
             "icon": "local_hospital",
             "title": "Hospital Transport",
-            "description": "Specialized transport for hospital visits, dialysis appointments, physiotherapy sessions, and planned discharges. YuvanCabs accepts wheelchair-accessible ride enquiries in Bengaluru and Chennai.",
+            "description": "Specialized transport for hospital visits, dialysis appointments, physiotherapy sessions, and planned discharges. WheelchairCabs accepts wheelchair-accessible ride enquiries in Bengaluru and Chennai.",
             "highlights": [
                 "Bengaluru hospital trips and Chennai ride enquiries",
                 "Recurring appointment scheduling",
@@ -61,10 +61,10 @@
     },
     "cta": {
         "heading": "Ready to experience the difference?",
-        "subheading": "Book your first ride and see why families across Bengaluru trust YuvanCabs.",
+        "subheading": "Book your first ride and see why families across Bengaluru trust WheelchairCabs.",
         "whatsapp": {
             "label": "Book via WhatsApp",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wheelchaircabs.com/booking",
             "ariaLabel": "Book via WhatsApp"
         },
         "phone": {

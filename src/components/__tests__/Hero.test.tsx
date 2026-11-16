@@ -21,14 +21,14 @@ describe('Hero Component', () => {
 
     it('renders the wheelchair taxi booking form', () => {
         render(<Hero data={heroData} />);
-        expect(screen.getByLabelText('Full Name *')).toBeInTheDocument();
-        expect(screen.getByLabelText('Pickup Location *')).toBeInTheDocument();
-        expect(screen.getByPlaceholderText('e.g., Indiranagar, Bengaluru')).toBeInTheDocument();
+        expect(screen.getByLabelText('Pickup location')).toBeInTheDocument();
+        expect(screen.getByLabelText('Dropoff location')).toBeInTheDocument();
+        expect(screen.getByRole('group', { name: 'Pickup timing' })).toBeInTheDocument();
     });
 
     it('renders CTA buttons', () => {
         render(<Hero data={heroData} />);
-        expect(screen.getByText('Send Booking via WhatsApp')).toBeInTheDocument();
+        expect(screen.getByRole('button', { name: /send trip details on whatsapp/i })).toBeInTheDocument();
         expect(screen.getByText('See How It Works')).toBeInTheDocument();
     });
 

@@ -7,7 +7,7 @@ import { getBookingPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Book a Wheelchair Taxi in Bangalore',
     description:
-        'Book a wheelchair-accessible taxi in Bengaluru or Chennai for hospital appointments, airport transfers, and local trips. Call or message YuvanCabs to check availability and fare.',
+        'Book a wheelchair-accessible taxi in Bengaluru or Chennai for hospital appointments, airport transfers, and local trips. Call or message WheelchairCabs to check availability and fare.',
     keywords: [
         'book wheelchair taxi Bangalore',
         'wheelchair cab booking Bengaluru',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         'accessible airport taxi booking',
     ],
     alternates: {
-        canonical: 'https://yuvancabs.com/booking',
+        canonical: 'https://wheelchaircabs.com/booking',
     },
 };
 

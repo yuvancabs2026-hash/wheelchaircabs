@@ -6,7 +6,7 @@ import { getServicesPageData } from '@/lib/data';
 export const metadata: Metadata = {
     title: 'Wheelchair Taxi Services in Bangalore',
     description:
-        'Wheelchair taxi services in Bengaluru and Chennai for hospital visits, dialysis appointments, airport transfers, and everyday travel. Contact YuvanCabs to plan your accessible ride.',
+        'Wheelchair taxi services in Bengaluru and Chennai for hospital visits, dialysis appointments, airport transfers, and everyday travel. Contact WheelchairCabs to plan your accessible ride.',
     keywords: [
         'wheelchair taxi services Bangalore',
         'wheelchair cab services Bengaluru',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         'wheelchair-friendly city transport',
     ],
     alternates: {
-        canonical: 'https://yuvancabs.com/services',
+        canonical: 'https://wheelchaircabs.com/services',
     },
 };
 
@@ -29,7 +29,7 @@ const serviceSchema = {
     name: 'Wheelchair Accessible Taxi Service',
     provider: {
         '@type': 'LocalBusiness',
-        name: 'YuvanCabs Bengaluru',
+        name: 'WheelchairCabs Bengaluru',
     },
     areaServed: [
         { '@type': 'City', name: 'Bengaluru' },

@@ -27,11 +27,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         openGraph: {
             title: data.metaTitle,
             description: data.metaDescription,
-            url: `https://yuvancabs.com/routes/${slug}`,
+            url: `https://wheelchaircabs.com/routes/${slug}`,
             type: 'website',
             images: [
                 {
-                    url: '/images/hero-taxi.webp',
+                    url: '/images/hero.png',
                     width: 1200,
                     height: 630,
                     alt: data.metaTitle,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             card: 'summary_large_image',
             title: data.metaTitle,
             description: data.metaDescription,
-            images: ['/images/hero-taxi.webp'],
+            images: ['/images/hero.png'],
         },
     };
 }
@@ -60,10 +60,10 @@ export default async function RoutePage({ params }: { params: Promise<{ slug: st
         "@type": "TaxiService",
         "name": data.metaTitle,
         "description": data.metaDescription,
-        "url": `https://yuvancabs.com/routes/${slug}`,
+        "url": `https://wheelchaircabs.com/routes/${slug}`,
         "provider": {
             "@type": "Organization",
-            "name": "YuvanCabs"
+            "name": "WheelchairCabs"
         },
         "areaServed": data.city ?? "Bengaluru",
         "serviceArea": {

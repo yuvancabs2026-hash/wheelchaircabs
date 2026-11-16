@@ -15,6 +15,6 @@ describe("Robots Generator", () => {
             expect(result.rules.disallow).toBe("/api/");
         }
 
-        expect(result.sitemap).toBe("https://yuvancabs.com/sitemap.xml");
+        expect(result.sitemap).toBe("https://wheelchaircabs.com/sitemap.xml");
     });
 });

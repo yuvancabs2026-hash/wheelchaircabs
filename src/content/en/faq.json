@@ -7,7 +7,7 @@
             "answer": "Our pricing depends on the distance and type of trip. City rides start from \u20b9500 for short distances. Airport transfers, hospital trips, and outstation rides have transparent per-km pricing. Contact us via WhatsApp for an instant quote \u2014 we'll provide the exact fare before you book."
         },
         {
-            "question": "How do I book a wheelchair taxi with YuvanCabs?",
+            "question": "How do I book a wheelchair taxi with WheelchairCabs?",
             "answer": "Booking is simple! Send us a message on WhatsApp with your pickup location, destination, and preferred date/time. You can also use our online booking form or call us directly at +91 81058 25544. We confirm bookings within 15 minutes."
         },
         {
@@ -44,7 +44,7 @@
         },
         {
             "question": "Is the vehicle sanitized between rides?",
-            "answer": "Yes. Every YuvanCabs vehicle is sanitized daily with hospital-grade disinfectants. We take hygiene seriously \u2014 especially since many of our passengers are visiting hospitals or have health sensitivities."
+            "answer": "Yes. Every WheelchairCabs vehicle is sanitized daily with hospital-grade disinfectants. We take hygiene seriously \u2014 especially since many of our passengers are visiting hospitals or have health sensitivities."
         },
         {
             "question": "Can I book for a senior citizen who uses a walking frame, not a wheelchair?",
@@ -52,7 +52,7 @@
         },
         {
             "question": "Do you provide wheelchair taxi service in Chennai?",
-            "answer": "Yes, YuvanCabs accepts enquiries for wheelchair-accessible rides in Chennai. Share your pickup, destination, date, wheelchair details, and travel requirements so the team can confirm vehicle suitability, availability, and fare."
+            "answer": "Yes, WheelchairCabs accepts enquiries for wheelchair-accessible rides in Chennai. Share your pickup, destination, date, wheelchair details, and travel requirements so the team can confirm vehicle suitability, availability, and fare."
         },
         {
             "question": "Can I book a wheelchair cab for dialysis or recurring hospital appointments?",
@@ -72,7 +72,7 @@
         "subheading": "Reach out to us on WhatsApp and we'll be happy to help.",
         "whatsapp": {
             "label": "Ask on WhatsApp",
-            "href": "https://www.yuvancabs.com/booking",
+            "href": "https://wheelchaircabs.com/booking",
             "ariaLabel": "Ask a question on WhatsApp"
         },
         "phone": {

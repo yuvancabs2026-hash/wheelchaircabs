@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         'dialysis transport booking',
     ],
     alternates: {
-        canonical: 'https://yuvancabs.com/faq',
+        canonical: 'https://wheelchaircabs.com/faq',
     },
 };
 

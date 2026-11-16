@@ -17,7 +17,7 @@ const footerData = getGlobalData().footer;
 describe('Footer Component', () => {
     it('renders the brand name', () => {
         render(<Footer data={footerData} />);
-        expect(screen.getByText('YuvanCabs')).toBeInTheDocument();
+        expect(screen.getByText('WheelchairCabs')).toBeInTheDocument();
     });
 
     it('renders the phone number', () => {
@@ -42,7 +42,7 @@ describe('Footer Component', () => {
 
     it('renders the copyright text', () => {
         render(<Footer data={footerData} />);
-        expect(screen.getByText(/© 2026 YuvanCabs Bengaluru/)).toBeInTheDocument();
+        expect(screen.getByText(/© 2026 WheelchairCabs Bengaluru/)).toBeInTheDocument();
     });
 
     it('uses a semantic <footer> element', () => {

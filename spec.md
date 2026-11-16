@@ -1,10 +1,10 @@
-# WheelchairTaxi – Detailed Project Specification
+# WheelchairCabs – Detailed Project Specification
 
 > **Version:** 2.0 (Synced with Plan v3.0)  
 > **Date:** 2026-02-25  
 > **Priority:** SEO-first, conversion-focused  
 > **Stack:** Next.js 15 (App Router), Tailwind CSS, Vercel  
-> **Domain:** TBD *(looking for a catchy name)*
+> **Domain:** https://wheelchaircabs.com
 
 ---
 
@@ -288,7 +288,7 @@ FAQ → Blog posts (expanded answers)
 
 **Sprint 1.3: SEO Foundation (Built Into Layout)**
 - [x] Create `app/layout.tsx` with:
-  - [x] Default title template: `%s | WheelchairTaxi Bangalore`
+  - [x] Default title template: `%s | WheelchairCabs`
   - [x] Default meta description with primary keyword
   - [x] Open Graph + Twitter Card meta tags
   - [x] `viewport` and `themeColor` meta
